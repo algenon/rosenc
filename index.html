@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Федеральная служба по анальному огораживанию интернета">
+    <meta name="author" content="ФСОАИ">
+    
+    <title>Федеральная служба по анальному огораживанию интернета</title>
+    
+    <link rel="shortcut icon" href="/i/favicon.png">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <p>Федеральная служба по анальному огораживанию интернета</p>
+        <small>Наш девиз &mdash; как бы чего не вышло!</small>
+      </div>
+    </header>
+
+    <div id="hello" class="jumbotron">
+      <div class="container">
+        <h1>Ограничение интернета!</h1>
+        <p>В соответствии с Конституцией РФ и федеральным законодательством с 1 января 2014 года вы получите статус <a href="#user">обычного пользователя</a> сети Интернет.<p>
+        <p>Обычные пользователи будут ограничены в правах (в интересах личной и государственной безопасности).</p>
+        <p>Чтобы воспользоваться всеми возможностями сети Интернет, вы можете получить лицензию Минкомсвязи.</p>
+      </div>
+    </div>
+
+    <div id="thankyou" class="jumbotron" style="display: none">
+      <div class="container">
+        <h1>Ваша заявка принята</h1>
+        <p>Она будет рассмотрена, и после личного собеседования в ФСОАИ вы получите лицензию сроком на 3 месяца.</p>
+        <p><a class="btn btn-primary btn-lg" href="http://ru.wikipedia.org/wiki/Шапочка из фольги">Я понял »</a></p>
+      </div>
+    </div>
+
+    <nav class="container">
+      <ul class="list-inline">
+        <li><a href="#user">Что разрешено?</a></li>
+        <li><a href="#comparison">Сравнить возможности</a></li>
+        <li><a class="btn btn-lg btn-primary" href="#license" data-toggle="modal">Получить лицензию</a></li>
+      </ul>
+    </nav>
+
+    <section id="user" class="container highlight">
+      <div class="row">
+        <h2>Что доступно обычному пользователю?</h2>
+        <div class="col-md-6">
+          <h3>Можно</h3>
+          <ul class="granted list-unstyled">
+            <li>Ходить в интернет до <span class="nowrap">5 раз</span> в месяц.</li>
+            <li>Посещать сайт <a href="http://kremlin.ru">kremlin.ru</a>, <a href="http://gosuslugi.ru">gosuslugi.ru</a> и сайты органов государственной власти.</li>
+            <li>Пользоваться <a href="http://gossearch.ru">Национальной поисковой системой</a>.</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h3>Нельзя</h3>
+          <ul class="denied list-unstyled">
+            <li>Посещать любые другие сайты.</li>
+            <li>Переходить по ссылкам.</li>
+            <li>Просматривать картинки.</li>
+            <li>Скачивать что-либо.</li>
+          </ul>
+       </div>
+      </div>
+    </section>
+
+    <aside id="wantmore" class="container">
+      <a class="pull-right" href="#license" data-toggle="modal">Хочу больше возможностей!</a>
+    </aside>
+
+    <section id="comparison" class="container">
+      <h2>Сравнение возможностей разных пользователей</h2>
+      <table class="table">
+        <colgroup>
+          <col></col>
+          <col></col>
+          <col></col>
+          <col></col>
+        </colgroup>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Обычный</th>
+            <th>Привелегированный</th>
+            <th>Комиссар</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Доступ в интернет</td>
+            <td>До 5 раз в месяц</td>
+            <td>До 60 раз в месяц</td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Разрешенные сайты</td>
+            <td>Госпоиск<br/>Сайты органов власти</td>
+            <td>Сайты из белого списка Роскомнадзора</td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Переходы по ссылкам</td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td>Только ссылки 1 уровня</td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Просмотр изображений</td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td>Только разрешенные Минкультуры</td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Просмотр аудио и видео</td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Скачивание контента</td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td class="denied"><span class="glyphicon glyphicon-ban-circle"></span></td>
+            <td class="granted"><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Кому предоставляется</td>
+            <td>Всем</td>
+            <td>По <a href="#license" data-toggle="modal">лицензии</a></td>
+            <td>По согласованию с администрацией Президента</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="modal fade" id="license" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h2>Подать заявку на лицензию</h2>
+          </div>
+          <div class="modal-body">
+            <form id="license-form" role="form" class="form-horizontal">
+              <div class="form-group">
+                <div class="col-md-12">
+                  <label for="name">ФИО</label>
+                  <input type="text" class="form-control input-lg" id="name" name="name" placeholder="Кузнецов Арчибальд Викторович" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <label for="birthdate">Дата рождения</label>
+                  <input type="text" class="form-control input-lg" id="birthdate" name="birthdate" placeholder="дд.мм.гггг" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <label for="passport">Паспорт</label>
+                  <input type="text" class="form-control input-lg" id="passport" name="passport" placeholder="0000 000000" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-md-12">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="" name="is_homo" required>
+                      Я не пропагандирую гомосексуализм
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="" name="is_pirate" required>
+                      Я не нарушаю интеллектуальные права
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="" name="is_atheist" required>
+                      Я не оскорбляю чувства верующих
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="" name="is_oppo" required>
+                      Я всегда буду голосовать за Единую Россию
+                    </label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" value="" name="is_human" required>
+                      Я унылое говно
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-lg btn-default" data-dismiss="modal">Обойдусь, пожалуй</button>
+            <button type="submit" form="license-form" class="btn btn-lg btn-primary">Подать заявку</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </section>
+
+    <hr>
+
+    <footer class="container">
+      <small class="text-muted">Распространение этой информации приветствуется.</small>
+      <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
+      <div class="pull-right yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,facebook,twitter"></div> 
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/jquery.validate.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
+</html>
