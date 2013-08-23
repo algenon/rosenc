@@ -48,6 +48,10 @@ $(function() {
       }
     });
 
+    $('button[form="license-form"]').click(function () {
+        $('#license-form').submit();
+    });
+
     $('#license').bind('hide.bs.modal', function () {
         validator.resetForm();
     });
