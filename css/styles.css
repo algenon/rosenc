@@ -38,8 +38,9 @@ body > header {
 }
 
 body > header p {
-    margin-bottom: 0;
     font-size: 18px;
+    line-height: 48px;
+    margin-bottom: 0;
 }
 
 body > header small {
