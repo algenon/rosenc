@@ -43,14 +43,15 @@ body.modal-open {
 
 body > header {
     color: #fff;
-    background: url(../i/header-bg.png) repeat-x;
+    background: #4293be;
     border-bottom: 1px solid #999999;
 }
 
 body > header p {
     font-size: 18px;
-    line-height: 48px;
     margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 body > header small {
