@@ -29,6 +29,16 @@ form .error {
     font-weight: normal;
 }
 
+/* Fix modal bug */
+body.modal-open {
+    margin-right: 0;
+    overflow: auto;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
 /* Header */
 
 body > header {
