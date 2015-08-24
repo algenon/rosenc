@@ -6,10 +6,11 @@
     <meta name="description" content="Федеральная служба по огораживанию интернета">
     <meta name="author" content="ФСОАИ">
     
-    <title>Ограничение интернета с 2015 года!</title>
+    <title>Ограничение интернета с 2016 года!</title>
     
     <link rel="shortcut icon" href="i/favicon.png">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/social-likes.css">
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -30,9 +31,13 @@
     <div id="hello" class="jumbotron">
       <div class="container">
         <h1>Ограничение интернета!</h1>
-        <p>В соответствии с&nbsp;Конституцией РФ и&nbsp;федеральным законодательством с&nbsp;1&nbsp;июля 2015&nbsp;года вы получите статус <a href="#user">обычного пользователя</a> сети Интернет.<p>
-        <p>Обычные пользователи будут ограничены в&nbsp;правах (в&nbsp;интересах личной и&nbsp;государственной безопасности).</p>
-        <p>Чтобы воспользоваться всеми возможностями сети Интернет, вы можете получить лицензию Минкомсвязи.</p>
+        <div class="row">
+          <div class="col-xs-12 col-sm-10 col-md-8">
+            <p>В соответствии с&nbsp;Конституцией РФ и&nbsp;федеральным законодательством с&nbsp;1&nbsp;января 2016&nbsp;года вы получите статус <a href="#user">обычного пользователя</a> сети Интернет.</p>
+            <p>Обычные пользователи будут ограничены в&nbsp;правах (в&nbsp;интересах личной и&nbsp;государственной безопасности).</p>
+            <p>Чтобы воспользоваться всеми возможностями сети Интернет, получите лицензию Минкомсвязи.</p>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -46,17 +51,17 @@
 
     <nav class="container">
       <ul class="list-inline">
-        <li><a href="#user">Что разрешено?</a></li>
+        <li><a href="#user">Что разрешено</a></li>
         <li><a href="#comparison">Сравнить возможности</a></li>
         <li><a class="btn btn-lg btn-primary" href="#license" data-toggle="modal">Получить лицензию</a></li>
       </ul>
     </nav>
 
     <section id="user" class="container highlight">
+      <h2>Обычному пользователю</h2>
       <div class="row">
-        <h2>Что доступно обычному пользователю?</h2>
         <div class="col-md-6">
-          <h3>Можно</h3>
+          <h3>Разрешено</h3>
           <ul class="granted list-unstyled">
             <li>Выходить в&nbsp;интернет до&nbsp;<span class="nowrap">5&nbsp;раз</span> в&nbsp;месяц.</li>
             <li>Посещать сайт <a href="http://kremlin.ru">kremlin.ru</a>, <a href="http://gosuslugi.ru">gosuslugi.ru</a> и&nbsp;сайты органов государственной власти.</li>
@@ -64,7 +69,7 @@
           </ul>
         </div>
         <div class="col-md-6">
-          <h3>Нельзя</h3>
+          <h3>Запрещено</h3>
           <ul class="denied list-unstyled">
             <li>Посещать любые другие сайты.</li>
             <li>Переходить по&nbsp;ссылкам.</li>
@@ -80,7 +85,7 @@
     </aside>
 
     <section id="comparison" class="container">
-      <h2>Сравнение возможностей разных пользователей</h2>
+      <h2>Сравнение возможностей</h2>
       <table class="table">
         <colgroup>
           <col></col>
@@ -224,8 +229,11 @@
 
     <footer class="container">
       <small class="text-muted">Федеральная служба по&nbsp;анальному огораживанию интернета.<br> Распространение этой информации приветствуется.</small>
-      <script type="text/javascript" src="//yandex.st/share/share.js" charset="utf-8"></script>
-      <div class="pull-right yashare-auto-init" data-yashareL10n="ru" data-yashareTheme="counter" data-yashareQuickServices="vkontakte,facebook,twitter"></div>
+      <div class="social-likes">
+        <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+        <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+        <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+      </div>
     </footer>
 
     <!-- Bootstrap core JavaScript
@@ -235,6 +243,7 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/social-likes.min.js"></script>
     <!-- <script type="text/javascript"> (function (d, w, c) {(w[c] = w[c] || []).push(function() {try {w.yaCounter25486487 = new Ya.Metrika({id:25486487, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") {d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="//mc.yandex.ru/watch/25486487" style="position:absolute; left:-9999px;" alt="" /></div></noscript>-->
   </body>
 </html>

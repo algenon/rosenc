@@ -4,6 +4,10 @@ body {
     padding-bottom: 20px;
 }
 
+.jumbotron {
+    font-size: 1.31em;
+}
+
 .highlight {
     background-color: #f7f7f9;
     border: 1px solid #e1e1e8;
@@ -93,8 +97,8 @@ body > nav li {
     padding-bottom: 30px;
 }
 
-#user h3 {
-    text-align: center;
+#user h2, #user h3 {
+    padding-left: 42px;
 }
 
 ul.granted li, ul.denied li {
@@ -153,6 +157,16 @@ ul.denied li {
 
 /* Footer */
 
-.yashare-auto-init {
-    margin-top: -7px;
+.social-likes {
+    float: right;
+}
+
+@media only screen and (max-width: 30em) {
+    body {
+        font-size: 14px;
+    }
+    .social-likes {
+        float: none;
+        margin: .6em 0 1em 0;
+    }
 }
