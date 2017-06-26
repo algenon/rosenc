@@ -23,6 +23,7 @@ $(function() {
         is_atheist: 'required',
         is_motherfucker: 'required',
         is_datathief: 'required',
+        is_telegram: 'required',
         is_oppo: 'required',
         is_human: 'required',
       },
@@ -34,6 +35,7 @@ $(function() {
         is_atheist: checkboxMsg,
         is_motherfucker: checkboxMsg,
         is_datathief: checkboxMsg,
+        is_telegram: checkboxMsg,
         is_oppo: checkboxMsg,
         is_human: checkboxMsg
       },
