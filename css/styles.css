@@ -163,7 +163,7 @@ ul.denied li {
 /* Footer */
 
 .social-likes {
-    float: right;
+    margin: 0 0 1em 0;
 }
 
 @media only screen and (max-width: 42em) {
@@ -176,9 +176,5 @@ ul.denied li {
     }
     tr {
         border-bottom: 4px solid #ddd;
-    }
-    .social-likes {
-        float: none;
-        margin: 0.6em 0 1em 0;
     }
 }
