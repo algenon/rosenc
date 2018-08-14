@@ -98,21 +98,23 @@ body > nav li {
     padding-bottom: 30px;
 }
 
-#user h2, #user h3 {
+#user h2,
+#user h3 {
     padding-left: 42px;
 }
 
-ul.granted li, ul.denied li {
+ul.granted li,
+ul.denied li {
     min-height: 32px;
     padding: 15px 0 15px 42px;
 }
 
 ul.granted li {
-    background: url('../i/granted.png') no-repeat left center;
+    background: url("../i/granted.png") no-repeat left center;
 }
 
 ul.denied li {
-    background: url('../i/denied.png') no-repeat left center;
+    background: url("../i/denied.png") no-repeat left center;
 }
 
 /* Comparison */
@@ -140,11 +142,13 @@ ul.denied li {
     width: 23%;
 }
 
-#comparison th, #comparison td {
+#comparison th,
+#comparison td {
     padding: 15px;
 }
 
-#comparison .granted, #comparison .denied {
+#comparison .granted,
+#comparison .denied {
     font-size: 150%;
 }
 
@@ -166,8 +170,15 @@ ul.denied li {
     body {
         font-size: 14px;
     }
+    th,
+    td {
+        display: block;
+    }
+    tr {
+        border-bottom: 4px solid #ddd;
+    }
     .social-likes {
         float: none;
-        margin: .6em 0 1em 0;
+        margin: 0.6em 0 1em 0;
     }
 }
